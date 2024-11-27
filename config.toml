@@ -57,7 +57,7 @@ id = ""
 
 [[menu.main]]
     name       = "services"
-    url        = "/features"
+    url        = "/services"
     weight     = 1
     parent     = "section.shortcodes"
 
