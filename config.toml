@@ -1,5 +1,5 @@
 baseurl = "https://sarusworld.github.io/hugo-universal-theme/"  
-title = "Sarus Tech"
+title = "Sarus World"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
