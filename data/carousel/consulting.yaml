@@ -1,0 +1,11 @@
+weight: 2
+title: "Consulting"
+description: >
+  <ul class="list-style-none">
+     <li>Micro Services</li>
+     <li>Spring</li>
+     <li>Kubernetes/Containers</li>
+     <li>Maven, git, Postman</li>
+   </ul>
+image: "img/carousel/template-mac.png"
+href: "faq"

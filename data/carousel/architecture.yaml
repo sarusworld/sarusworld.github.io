@@ -1,0 +1,9 @@
+weight: 3
+title: "Architecture"
+description: >
+  <ul class="list-style-none">
+    <li>Micro Services</li>
+    <li>Migration</li>
+    <li>Greenfield</li>
+  </ul>
+image: "img/carousel/template-easy-customize.png"
