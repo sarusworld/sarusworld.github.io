@@ -1,7 +1,7 @@
 +++
 draft = false
 title = 'Skills'
-type = 'profile'
+type = 'profileview'
 layout = 'skills'
 +++
 Skills

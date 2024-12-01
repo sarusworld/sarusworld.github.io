@@ -1,7 +1,7 @@
 +++
 draft = false
 title = 'Accomplishments'
-type = 'profile'
+type = 'profileview'
 layout = 'accomplishments'
 +++
 Accomplishments

@@ -84,7 +84,7 @@ id = ""
 
 [[menu.main]]
     name       = "Skills"
-    url        = ""
+    url        = "profile/skills"
     weight     = 1
     parent     = "section.portfolio"
 
@@ -102,13 +102,13 @@ id = ""
 
 [[menu.main]]
     name       = "Projects"
-    url        = ""
+    url        = "profile/project"
     weight     = 4
     parent     = "section.portfolio"
 
 [[menu.main]]
     name       = "Accomplishments"
-    url        = ""
+    url        = "profile/accomplishments"
     weight     = 5
     parent     = "section.portfolio"
 
@@ -129,7 +129,7 @@ id = ""
 
 [[menu.main]]
     name       = "About Us"
-    url        = ""
+    url        = "/profile"
     weight     = 1
     parent     = "section.about"
 
