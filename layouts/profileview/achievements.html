@@ -1,0 +1,13 @@
+
+<div class="container-fluid anchor pb-5 achievements-section">
+  <div class="container">
+    <div class="row" id="gallery">
+    </div>
+  </div>
+  <!-- achievements-holder holds achievement-entry -->
+  <div class="d-none" id="achievements-holder">
+    {{ range .Site.Data.profilemodel.achievements.achievements }}
+      {{ partial "achievements/entry.html" . }}
+    {{ end }}
+  </div>
+</div>

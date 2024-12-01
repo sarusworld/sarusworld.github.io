@@ -1,7 +1,7 @@
 +++
 draft = false
 title = 'Achievements'
-type = 'profile'
+type = 'profileview'
 layout = 'achievements'
 +++
 Achievemtns

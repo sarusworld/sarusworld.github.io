@@ -1,7 +1,7 @@
 +++
 draft = false
 title = 'Experience'
-type = 'profile'
-layout = 'experience'
+type = 'profileview'
+layout = 'experiences'
 +++
 Experience

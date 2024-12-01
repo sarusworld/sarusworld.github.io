@@ -1,7 +1,7 @@
 +++
 draft = false
 title = 'Education'
-type = 'profile'
+type = 'profileview'
 layout = 'education'
 +++
 Education

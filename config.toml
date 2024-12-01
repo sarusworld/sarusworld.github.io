@@ -90,13 +90,13 @@ id = ""
 
 [[menu.main]]
     name       = "Experience"
-    url        = ""
+    url        = "profile/experiences"
     weight     = 2
     parent     = "section.portfolio"
 
 [[menu.main]]
     name       = "Education"
-    url        = ""
+    url        = "profile/education"
     weight     = 3
     parent     = "section.portfolio"
 
@@ -114,7 +114,7 @@ id = ""
 
 [[menu.main]]
     name       = "Acheivements"
-    url        = ""
+    url        = "profile/achievements"
     weight     = 6
     parent     = "section.portfolio"
 
