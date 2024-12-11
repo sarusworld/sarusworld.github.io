@@ -77,7 +77,7 @@ id = ""
 [[menu.main]]
     name       = "Profile"
     identifier = "section.portfolio"
-    url        = ""
+    url        = "/profile"
     weight     = 1
     parent     = "menu.portfolio"
     post       = 1
