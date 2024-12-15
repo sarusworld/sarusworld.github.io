@@ -1,8 +1,8 @@
 
 
-<div class="container-fluid anchor pb-5 experiences-section">
+<div class="container-fluid pb-5">
 
-  <div class="container timeline text-justify">
+  <div class="container text-justify">
    {{ $totalExperiences:= len .Site.Data.profilemodel.experiences.experiences }}
    {{ range $index,$experience:= .Site.Data.profilemodel.experiences.experiences }}
      {{ if eq (mod $index 2) 0 }}
