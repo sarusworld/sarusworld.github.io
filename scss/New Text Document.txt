@@ -1,0 +1,1 @@
+ sass --watch .\scss\sarus_styles_default.scss:.\static\css\sarus_styles.css
