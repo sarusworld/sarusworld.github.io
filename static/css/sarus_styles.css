@@ -3248,7 +3248,8 @@ textarea.form-control-lg {
 .nav {
   --bs-nav-link-padding-x: 1rem;
   --bs-nav-link-padding-y: 0.5rem;
-  --bs-nav-link-font-weight: ;
+  --bs-nav-link-font-size: 1.25rem;
+  --bs-nav-link-font-weight: bold;
   --bs-nav-link-color: var(--bs-link-color);
   --bs-nav-link-hover-color: var(--bs-link-hover-color);
   --bs-nav-link-disabled-color: var(--bs-secondary-color);
@@ -3409,7 +3410,8 @@ textarea.form-control-lg {
 .navbar-nav {
   --bs-nav-link-padding-x: 0;
   --bs-nav-link-padding-y: 0.5rem;
-  --bs-nav-link-font-weight: ;
+  --bs-nav-link-font-size: 1.25rem;
+  --bs-nav-link-font-weight: bold;
   --bs-nav-link-color: var(--bs-navbar-color);
   --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
   --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
@@ -10289,5 +10291,28 @@ textarea.form-control-lg {
 
   .d-print-none {
     display: none !important; } }
+.nav-link {
+  text-transform: uppercase;
+  text-decoration: underline; }
+
+.nav-link.active {
+  background-color: #00ff00; }
+
+.home-carousel {
+  width: 60%;
+  height: 40%;
+  margin: auto; }
+
+.home-carousel h1, .home-carousel .h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff; }
+
+.carousel-item h6, .carousel-item .h6 {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #ffffff; }
 
 /*# sourceMappingURL=sarus_styles.css.map */

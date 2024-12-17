@@ -29,7 +29,7 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "Services"
     identifier = "menu.features"
-    url        = "/services"
+    url        = "/services/"
     weight     = 3
 
 
@@ -37,7 +37,7 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "Profile"
     identifier = "menu.portfolio"
-    url        = "/profile"
+    url        = "/profile/"
     weight     = 3
 
 
