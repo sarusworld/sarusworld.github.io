@@ -1,8 +1,9 @@
-
+<div class="col">
 <a class="text-decoration-none" {{ if .url }}href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener"{{ end }}></a>
 <div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">{{ .name }}</h5>
     <p class="card-text">{{ .summary | markdownify }}</p>
   </div>
+</div>
 </div>
