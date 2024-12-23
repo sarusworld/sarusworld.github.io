@@ -10362,10 +10362,11 @@ textarea.form-control-lg {
 
 .section_header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: var(--bs-white);
   background-color: var(--bs-indigo);
-  padding: 20px;
+  padding: 10px;
   display: block;
   border-radius: 0.25rem;
   font-weight: bold; }

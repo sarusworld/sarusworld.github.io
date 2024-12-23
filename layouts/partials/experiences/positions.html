@@ -1,33 +1,23 @@
-<div class="col-12">
-    <div>
-        {{ $logoImage:= resources.Get .company.logo}}
-        {{ $darkLogoImage:= resources.Get .company.darkLogo}}
-        {{ if $logoImage }}
-        <div> 
-            <img src="{{ $logoImage.RelPermalink }}" alt="{{ .name }}" />
-            {{ if $darkLogoImage }}
-            <img src="{{ $darkLogoImage.RelPermalink }}" alt="{{ .name }}" />
-            {{ end }}
-        </div>
-        {{ end }}
+<div class="col">
         <!-- Total experience duration on a company is time between the starting date of the oldest position and ending date of most recent position -->
         {{ $oldestPosition := index (last 1 .positions) 0}}
         {{ $mostRecentPosition := index (first 1 .positions) 0}}
+
         <div>
-            <div>
                 <span class="d-block p-2 text-bg-primary">
                     {{ .company.name }}<a style=color:white href={{.company.url}} title="{{ .company.name }}" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i></a>
                 </span>
             <p class="text-muted">
                 {{ $oldestPosition.start }} - {{ if $mostRecentPosition.end }}{{ $mostRecentPosition.end }}{{ else }}{{ i18n "present" }}{{ end }}
             </p>
+            <p class="text-muted">
+                <i class="bi bi-geo-alt-fill"></i></i> {{ .company.location }}
+            </p>
+            <!-- Add company overview -->
+            <p>{{ .company.overview | markdownify }}</p>
         </div>
-        <p class="text-muted">
-            <i class="bi bi-geo-alt-fill"></i></i> {{ .company.location }}
-        </p>
-        <!-- Add company overview -->
-        <p>{{ .company.overview | markdownify }}</p>
-    </div>
+        
+
     <!-- Add the positions information -->
     <div class="positions">
     {{ range $index,$position:= .positions }}
@@ -37,7 +27,7 @@
         </div>
         <!-- Add the responsibilities handled at this position -->
         {{ if $position.responsibilities }}
-            <h6>{{ i18n "responsibilities" }}</h6>
+            <h6>Responsibilities</h6>
             <ul class="justify-content-around">
                 {{ range $position.responsibilities }}
                     <li>{{ . | markdownify }}</li>

@@ -1,10 +1,9 @@
-<span class="section_header">Certifications</span>
-<div class="container-fluid pb-5">
-  <div class="container">
-    <div class="row" id="gallery">
-    {{ range .Site.Data.profilemodel.certifications.certifications }}
-        {{ partial "cards/certifications.html" . }}
-    {{ end }}
-    </div>
-  </div>
+<div class="row">
+  <span class="section_header">Certifications</span>
+</div>
+<div class="row">
+
+  {{ range .Site.Data.profilemodel.certifications.certifications }}
+  {{ partial "cards/certifications.html" . }}
+  {{ end }}
 </div>

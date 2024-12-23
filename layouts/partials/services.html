@@ -1,14 +1,10 @@
-<div class="container-sm">
-<span class="section_header">Services</span>
 <div class="container">
-    <div class="row row-cols-2 g-4">
+  <div class="row"><span class="section_header">Services</span></div>
+  <div class="row row-cols-2 g-4">
     {{ range sort .Site.Data.services "weight" }}
-        
-        {{ partial "cards/services.html" . }}
-        
-    
+    {{ partial "cards/services.html" . }}
     {{ end }}
-    </div>
   </div>
+</div>
 </div>
 </div>
