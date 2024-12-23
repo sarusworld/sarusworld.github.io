@@ -1,5 +1,5 @@
 weight: 1
 name: "Microservices"
-icon: "fas fa-desktop"
+title: "Kubernetes"
 url: ""
-description: "Spring."
+description: "Spring Boot, Kubernetes, Java, Docker, Microservices."

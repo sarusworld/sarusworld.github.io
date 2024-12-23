@@ -26,72 +26,6 @@ $carousel-control-width:             15%;
   
 }
 
-.carousel {
-  border: 2px solid $primary-border-subtle;
-  width: 80%;
-  
-}
-
-.home-carousel {
-  background: $primary-bg-subtle;
-  padding-top: 60px;
-  padding-bottom: 40px;
-  justify-items: center;
-  
-}
-
-@media (max-width: 767px) {
-  .home-carousel {
-    text-align: center !important;
-  }
-}
-@media (min-width: 992px) {
-  .home-carousel .right {
-    text-align: right;
-  }
-}
-.home-carousel h1,
-.home-carousel h2,
-.home-carousel h3,
-.home-carousel p,
-.home-carousel ul {
-  color: $primary;
-}
-.home-carousel h1 {
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 46px;
-  letter-spacing: 0.08em;
-}
-@media (max-width: 991px) {
-  .home-carousel h1 {
-    font-size: 36px;
-  }
-}
-.home-carousel h2 {
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 40px;
-  letter-spacing: 0.08em;
-}
-.home-carousel ul,
-.home-carousel p {
-  font-size: 18px;
-  font-weight: 700;
-  padding: 0;
-  text-transform: uppercase;
-  letter-spacing: 0.10em;
-}
-@media (max-width: 991px) {
-  .home-carousel ul,
-  .home-carousel p {
-    font-size: 14px;
-  }
-}
-.home-carousel ul li {
-  margin-bottom: 10px;
-}
-
 
 .d-block {
   border-radius: 0.25rem; // Adjust the value as needed
@@ -107,5 +41,7 @@ $carousel-control-width:             15%;
   border-radius: 0.25rem;
   font-weight: bold;
  }
- 
+.topbar{
+  background-color: var(--bs-primary-bg-subtle);
+} 
   

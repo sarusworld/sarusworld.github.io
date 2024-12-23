@@ -63,7 +63,7 @@ defaultContentLanguage = "en"
 [params]
     
     style = "default"
-    about_us = "<p>Bengaluru</p>"
+    about_us = "<p>IT Services</p>"
     copyright = "SarusWorld; all rights reserved."
 
     # Format dates with Go's time formatting

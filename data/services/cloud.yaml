@@ -1,5 +1,5 @@
 weight: 4
 name: "Cloud"
-icon: "fas fa-lightbulb"
+title: "Azure,AWS"
 url: ""
 description: "Azure,AWS."

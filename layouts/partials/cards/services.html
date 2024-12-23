@@ -1,18 +1,11 @@
 <div class="col">
-<div class="card" style="width: 18rem;">
-  <div class="card-header text-white bg-primary">{{ .name | markdownify }} </div>
-  <h5 class="card-title">
-
-    <a href="{{ .url }}">
-
-      <div class="icon">
-        <i class="{{ .icon }}"></i>
-      </div>
-
-    </a>
-  </h5>
-  <div class="card-body">
-    <p class="card-text">{{ .description | markdownify }}</p>
+  <div class="card" style="width: 18rem;">
+    <div class="card-header text-white bg-primary">{{ .name | markdownify }} </div>
+    <h6 class="card-title">
+      {{ .title | markdownify }}
+    </h5>
+    <div class="card-body">
+      <p class="card-text">{{ .description | markdownify }}</p>
+    </div>
   </div>
-</div>
 </div>

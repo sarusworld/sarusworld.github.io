@@ -1,5 +1,5 @@
 weight: 3
 name: "Web"
-icon: "fas fa-globe"
+title: "Web Apps"
 url: ""
-description: "Web."
+description: "SPA,JSP"
