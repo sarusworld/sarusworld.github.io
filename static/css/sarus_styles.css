@@ -51,7 +51,11 @@ html, body {
   height: 100%;
   margin: 0; }
 
-.profileCardHeader, .servicesCardHeader {
+.profileCard .card-header {
+  color: white;
+  background-color: var(--bs-primary); }
+
+.serviceCard .card-header {
   color: white;
   background-color: var(--bs-primary); }
 
