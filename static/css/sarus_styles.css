@@ -1,0 +1,58 @@
+:root {
+  --bs-var1: rgb(0, 238, 255); }
+
+.nav-link {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: large;
+  font-weight: bold; }
+
+.nav-link.active {
+  background-color: var(--bs-primary-bg-subtle); }
+
+.nav-spacing .nav-link {
+  margin-right: 200px;
+  width: 500px; }
+
+.d-block {
+  border-radius: 0.25rem; }
+
+.section_header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: var(--bs-white);
+  background-color: var(--bs-secondary);
+  padding: 10px;
+  display: block;
+  border-radius: 0.25rem;
+  font-weight: bold; }
+
+.experience_title {
+  display: flex;
+  color: var(--bs-white);
+  font-weight: bold;
+  font-size: large;
+  background-color: var(--bs-primary); }
+
+.topbar {
+  background-color: var(--bs-primary-bg); }
+
+.home {
+  display: flex;
+  background-color: var(--bs-primary);
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 0.25rem;
+  flex-grow: 1; }
+
+html, body {
+  height: 100%;
+  margin: 0; }
+
+.profileCardHeader, .servicesCardHeader {
+  color: white;
+  background-color: var(--bs-primary); }
+
+/*# sourceMappingURL=sarus_styles.css.map */

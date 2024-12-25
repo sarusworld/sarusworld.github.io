@@ -1,0 +1,14 @@
+<header class="container">
+  <div class="row topbar" id="top">
+    <div class="col-10">
+      {{ .Site.Params.topbar.text | safeHTML }}
+    </div>
+    <div class="col-2">
+      <div>
+        {{ range .Site.Menus.topbar.ByWeight }}
+        <a href="{{ .URL | safeURL }}" target="_blank" style="opacity: 1;">{{ .Pre }}</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</header>

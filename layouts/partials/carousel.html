@@ -1,0 +1,42 @@
+<div id="home" class="container  home" >
+  <div class="row">
+    <div class="col-12">
+      <div id="sarusCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#sarusCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#sarusCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#sarusCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#sarusCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner" style="margin-left: auto; margin-right: auto; width: 50%;">
+          {{ range $index, $element := sort .Site.Data.carousel "weight" }}
+          <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
+            <div class="container">
+              <div class="row d-flex align-items-center">
+                <div class="col-md-6 col-sm-12">
+                  <div>
+                    <h1 style="color: white;">{{ $element.title | safeHTML }}</h1>
+                    <h6 style="color: wheat;">{{ $element.description | safeHTML }}</h6>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <img class="d-block w-100" src="{{ .image }}" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#sarusCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#sarusCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

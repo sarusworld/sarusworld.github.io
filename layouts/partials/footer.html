@@ -1,0 +1,31 @@
+<div  class="container">
+        <hr class="hidden-md hidden-lg hidden-sm">
+        <div class="row">
+            <div class="col-lg-8 col-sm-6">
+                <h4> About Us</h4>
+                {{ .Site.Params.about_us | safeHTML }}
+            </div>
+            <div class="col-lg-4 col-sm-6 address">
+                <a href="{{ default "/contact" .Site.Params.contact_url }}" >Contact</a>
+                {{ .Site.Params.address | safeHTML }}
+            </div>
+        </div>
+</div>
+<!-- *** FOOTER END *** -->
+
+<!-- *** COPYRIGHT ***
+_________________________________________________________ -->
+
+<div id="copyright">
+    <div class="container">
+        <hr class="hidden-md hidden-lg hidden-sm">
+        <div class="col-md-12">
+            {{ if isset .Site.Params "copyright" }}
+            <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
+            {{ end }}
+            <p class="pull-right">
+            </p>
+        </div>
+    </div>
+</div>
+<!-- *** COPYRIGHT END *** -->

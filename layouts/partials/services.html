@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <span class="section_header">Services</span>
+  </div>
+  <div class="row row-cols-3 g-4">
+    {{ range sort .Site.Data.services "weight" }}
+    {{ partial "cards/services.html" . }}
+    {{ end }}
+  </div>
+</div>
+</div>
+</div>

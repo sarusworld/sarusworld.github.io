@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  <head>
+    {{ partial "headers.html" . }}
+    {{ partial "custom_headers.html" . }}
+    
+  </head>
+
+  <body>
+
+    <div id="body">
+      {{ partial "top.html" . }}
+      {{ partial "nav.html" . }}
+        <div id="content">
+              
+                {{ template "profileview/profile.html" . }}
+              
+            
+        </div>
+        <!-- /#content -->
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#profile -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>

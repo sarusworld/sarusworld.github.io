@@ -1,0 +1,21 @@
+# section information
+section:
+  name: Certifications
+  id: certifications
+  enable: true
+  weight: 10
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+certifications:
+- title: TOGAF
+  image: /images/sections/achievements/the-open-group-certified-togaf-standard-version-9-2.png
+  summary: TOGAF.
+- title: Azure Certified Solutions Architect
+  image: /images/sections/achievements/microsoft-certified-azure-fundamentals.png
+  summary: Azure Certified Solutions Architect
+#- title: Graduation
+  #image: /images/sections/achievements/graduation-cap.jpg
+#  summary: Received Bachelor of Engineering (BE) in Mechanical Engineering from SLN College of Engineering.

@@ -1,0 +1,39 @@
+<div class="col">
+        <!-- Total experience duration on a company is time between the starting date of the oldest position and ending date of most recent position -->
+        {{ $oldestPosition := index (last 1 .positions) 0}}
+        {{ $mostRecentPosition := index (first 1 .positions) 0}}
+
+        <div>
+                <span class="p-2 experience_title">
+                    {{ .company.name }}<a style=color:white href={{.company.url}} title="{{ .company.name }}" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i></a>
+                </span>
+            <p class="text-muted">
+                {{ $oldestPosition.start }} - {{ if $mostRecentPosition.end }}{{ $mostRecentPosition.end }}{{ else }}{{ i18n "present" }}{{ end }}
+            </p>
+            <p class="text-muted">
+                <i class="bi bi-geo-alt-fill"></i></i> {{ .company.location }}
+            </p>
+            <!-- Add company overview -->
+            <p>{{ .company.overview | markdownify }}</p>
+        </div>
+        
+
+    <!-- Add the positions information -->
+    <div class="positions">
+    {{ range $index,$position:= .positions }}
+        <div>
+            <h5>{{ $position.designation }}</h5>
+            <p>{{ $position.start }} - {{if $position.end }} {{ $position.end }} {{else}} {{ i18n "present" }} {{end}}</p>
+        </div>
+        <!-- Add the responsibilities handled at this position -->
+        {{ if $position.responsibilities }}
+            <h6>Responsibilities</h6>
+            <ul class="justify-content-around">
+                {{ range $position.responsibilities }}
+                    <li>{{ . | markdownify }}</li>
+                {{ end }}
+            </ul>
+        {{ end }}
+    {{ end }}
+    </div>
+</div>

@@ -1,6 +1,7 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
-Gemfile.lock
+themes/
+node_modules/
+public/
+.hugo_build.lock
+resources/
+.sass-cache/
+package-lock.json

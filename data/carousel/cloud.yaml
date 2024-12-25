@@ -1,0 +1,10 @@
+weight: 4
+title: "Cloud"
+description: >
+  <ul class="list-style-none">
+    <li>Azure Solution Archticture Certified.</li>
+    <li>AWS.</li>
+    <li>Can support different clouds.</li>
+  </ul>
+image: "img/carousel/cloud.png"
+href: "https://portal.azure.com"

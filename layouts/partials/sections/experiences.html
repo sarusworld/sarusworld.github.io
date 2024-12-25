@@ -1,0 +1,16 @@
+<div class="row">
+  <span class="section_header">Experiences</span>
+</div>
+<div class="row row-cols-1">
+
+
+  {{ range $index,$experience:= .Site.Data.profilemodel.experiences.experiences }}
+
+
+  <!--{{ partial "experiences/vertical-line.html" $index }} -->
+  {{ partial "experiences/positions.html" $experience }}
+  <!--{{ partial "experiences/horizontal-line.html" $index }}-->
+
+
+  {{ end }}
+</div>

@@ -1,0 +1,24 @@
+# section information
+section:
+  name: Accomplishments
+  id: accomplishments
+  enable: true
+  weight: 9
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your accomplishments
+accomplishments:
+- name: IOT
+  timeline: "IOT"
+  organization:
+    name: IOT
+    url: IOT
+  courseOverview: IOT
+  certificateURL: "IOT"
+
+
+ 
+

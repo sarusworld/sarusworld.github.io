@@ -1,0 +1,11 @@
+<div class="col d-flex justify-content-center">
+  <div class="card" style="width: 18rem;">
+    <div class="card-header servicesCardHeader">{{ .name | markdownify }} </div>
+    <h6 class="card-title">
+      {{ .title | markdownify }}
+    </h5>
+    <div class="card-body">
+      <p class="card-text">{{ .description | markdownify }}</p>
+    </div>
+  </div>
+</div>

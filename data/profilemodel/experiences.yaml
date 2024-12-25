@@ -1,0 +1,93 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Tata Consultancy Services
+    url: "https://www.tcs.com/"
+    location: Hyderabad, India
+    #logo: /images/sections/experiences/logo-rgb-white.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company1.jpg
+    # company overview
+    overview: Tata Consultancy Services (TCS) is a leading global IT services, consulting, and business solutions organization. It offers a 1  wide range of services including digital transformation, cloud solutions, cybersecurity, and more.
+  positions:
+  - designation: Senior Consultant
+    
+    
+    responsibilities:
+    - Quality Gate Control
+    - Cloud Migration
+    - BPM Integration
+    - Competency Building
+
+
+- company:
+    name: Robert Bosch Engineering and Business Solutions
+    url: "https://www.bosch-softwaretechnologies.com/en/"
+    location: Bengaluru, India
+    
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company2.jpg
+    overview: Robert Bosch Engineering and Business Solutions (RBEI) is a leading global engineering and IT solutions provider. They offer a wide range of services including embedded systems, automotive electronics, and IT solutions.
+  positions:
+  - designation: Senior Architect
+    
+    responsibilities:
+    - Hands on experience on Cloud, Microservices and IOT.
+    - Design, develop, review applications.
+    - Competency building, Interviews.
+    - Devops, Agile Methodology
+    
+- company:
+    name: Tech Mahindra (Formerly Satyam)
+    url: "https://www.techmahindra.com/"
+    location: Bengaluru, India
+    #logo: /images/sections/experiences/company3.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company3.jpg
+    overview: Tech Mahindra is a leading IT services and consulting company, specializing in digital transformation solutions. We empower businesses to thrive in the digital age through innovative technologies and industry expertise.
+  positions:
+  - designation: Technical Architect
+    responsibilities:
+    - Web Development
+    - Proposoal Writing
+    - Project Support from competency team
+
+- company:
+    name: Infotech enterprises Ltd (Cyient)
+    url: "https://www.cyient.com/"
+    location: Hyderabad, India
+    #logo: /images/sections/experiences/company3.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company3.jpg
+    overview: Cyient is a global engineering and technology solutions company. It provides solutions in areas like aerospace, defense, communications, medical technology, and rail transportation.
+  positions:
+  - designation: Senior Software Engineer
+    
+    responsibilities:
+    - Analysis & Design of use cases using UML
+    - Web Development
+
+- company:
+    name: Choice Solutions Ltd
+    url: "https://www.choice-solutions.com/"
+    location: Hyderabad, India
+    #logo: /images/sections/experiences/company3.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company3.jpg
+    overview: Choice Solutions is a company focused on customer experience and success. They offer innovative solutions, expert services, and help companies manage, optimize, operate, protect, and establish their digital assets.
+  positions:
+  - designation: Programmer
+    
+    responsibilities:
+    - Develop Enterprise Java and XML Applications
+    
