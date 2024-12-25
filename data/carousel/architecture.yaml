@@ -1,9 +1,11 @@
 weight: 3
 title: "Architecture"
-description: >
+description:
   <ul class="list-style-none">
     <li>Micro Services</li>
     <li>Migration</li>
     <li>Greenfield</li>
+    <li>Brownfield</li>
+    <li>Integration</li>
   </ul>
 image: "img/carousel/Architecture.png"

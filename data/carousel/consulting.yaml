@@ -2,10 +2,10 @@ weight: 2
 title: "Consulting"
 description: >
   <ul class="list-style-none">
-     <li>Micro Services</li>
-     <li>Spring</li>
-     <li>Kubernetes/Containers</li>
-     <li>Maven, git, Postman</li>
+     <li>Requirement Gathering</li>
+     <li>Training</li>
+     <li>Reviews</li>
+     <li>Troubleshooting</li>
    </ul>
 image: "img/carousel/consulting.png"
 href: "faq"
