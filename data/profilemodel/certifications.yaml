@@ -9,10 +9,12 @@ section:
 certifications:
 - title: TOGAF
   image: /img/sections/certifications/the-open-group-certified-togaf-standard-version-9-2.png
-  summary: TOGAF.
-- title: Azure Certified Solutions Architect
+  url: https://www.credly.com/badges/aba0242a-109d-4a34-908c-df04018447fa
+  summary: TOGAF 9.2 Certified
+- title: Azure Solutions Architect
   image: /img/sections/certifications/microsoft-certified-azure-solutions-architect-expert.png
-  summary: Azure Certified Solutions Architect
+  url: https://www.credly.com/badges/e97a4dc6-9eda-4ee9-886b-8555ec02c823
+  summary: Microsoft Certified:- Azure Solutions Architect Expert
 #- title: Graduation
   #image: /images/sections/achievements/graduation-cap.jpg
 #  summary: Received Bachelor of Engineering (BE) in Mechanical Engineering from SLN College of Engineering.

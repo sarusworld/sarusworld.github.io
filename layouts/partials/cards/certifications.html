@@ -8,7 +8,8 @@
       
     </h6>
     <div class="card-body">
-      <p class="card-text">{{ .summary | markdownify }}</p>
+      <p class="card-text"><a href="{{ .url }}" target="_blank">{{ .summary | markdownify }}</a></p>
+         
     </div>
   </div>
 </div>

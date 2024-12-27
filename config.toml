@@ -61,27 +61,24 @@ defaultContentLanguage = "en"
     pre = "<i class='bi bi-envelope-fill'></i>"
 
 [params]
-    
-    style = "default"
     about_us = "<p>IT Services</p>"
     copyright = "SarusWorld; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
     logo_text = "Sarus World"
-    logo = "img/logo.png"
-    logo_small = "img/logo-small.png"
+    logo = "img/logo.jpg"
+    logo_small = "img/logo-small.jpg"
     contact_url = "/contact"
-    address = """<p class="text-uppercase"><strong>Sarus IT Services</strong>
-        <br>Bengaluru
-        <strong>India</strong>
-      </p>
+    address = """<p class="text-uppercase">
+    <strong>Sarus IT Services</strong>
+    <br>Bengaluru <strong>India</strong></p>
       """
 
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    text = """<p class="hidden-sm hidden-xs">Contact us on <a href="mailto: sarusworld@outlook.com" data-animate-hover="pulse"><i class="bi bi-envelope-fill"></i></a>.</p>"""
+    text = """<p class="hidden-sm hidden-xs"><strong>Mail:</strong> <a href="mailto: sarusworld@outlook.com" data-animate-hover="pulse"><i class="bi bi-envelope-fill"></i></a>.</p>"""
 
 [params.services]
     cols = 3 # Default: 3, Available values 2,3,4,6
