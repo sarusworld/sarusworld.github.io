@@ -24,14 +24,6 @@ defaultContentLanguage = "en"
     weight     = 3
 
 
-
-[[menu.main]]
-    name       = "Profile"
-    identifier = "menu.portfolio"
-    url        = "/profile/"
-    weight     = 3
-
-
 [[menu.main]]
     identifier = "contact"
     name       = "Contact"
