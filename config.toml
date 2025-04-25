@@ -64,7 +64,7 @@ defaultContentLanguage = "en"
     contact_url = "/contact"
     address = """<p class="text-uppercase">
     <strong>Sarus IT Services</strong>
-    <br>Bengaluru <strong>India</strong></p>
+    <br>Bengaluru, <strong>India</strong></p>
       """
 
 
