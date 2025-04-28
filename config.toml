@@ -53,7 +53,7 @@ defaultContentLanguage = "en"
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    text = """<p class="hidden-sm hidden-xs"><strong>Mail:</strong> <a href="mailto: sarusworld@outlook.com" data-animate-hover="pulse"><i class="bi bi-envelope-fill"></i></a>.</p>"""
+    text = """<p class="hidden-sm hidden-xs"><strong>Welcome to Sarus World</strong>  <i class="bi bi-envelope-fill"></i></a>.</p>"""
 
 [params.services]
     cols = 3 # Default: 3, Available values 2,3,4,6
