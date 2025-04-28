@@ -24,12 +24,6 @@ defaultContentLanguage = "en"
     weight     = 3
 
 
-[[menu.main]]
-    identifier = "contact"
-    name       = "Contact"
-    url        = "/contact/"
-    weight     = 7
-
 
 # Top bar social links menu
 
@@ -39,18 +33,7 @@ defaultContentLanguage = "en"
     url = "https://github.com/SarusMarket/miniature-goggles"
     pre = "<i class='bi bi-github'></i>"
 
-[[menu.topbar]]
-    weight = 2
-    name = "Linkedin"
-    url = "https://www.linkedin.com/in/shyam-prasad-arch/"
-    pre = "<i class='bi bi-linkedin'></i>"
 
-
-[[menu.topbar]]
-    weight = 3
-    name = "Email"
-    url = "mailto:sarusworld@outlook.com"
-    pre = "<i class='bi bi-envelope-fill'></i>"
 
 [params]
     about_us = "<p>IT Services</p>"
